@@ -71,3 +71,11 @@ So far, this isn't very interesting. We can do this circuit without the microcon
                                         # led.
             time.sleep(.5)
     ```
+
+<br />
+
+## Advanced: Exercise 3
+
+An LED toggling on/off also isn't that interesting. What would be more interesting would be if the LED blinked! when toggled on.
+
+1. Create a script that uses a button to toggle an LED on/off. When the LED is on, it should blink.
