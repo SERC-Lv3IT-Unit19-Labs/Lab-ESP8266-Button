@@ -24,7 +24,7 @@ In this lab students will learn about simple on/off (digital) inputs. A digital 
 
 <br />
 
-<img src="assets/wemos-d1-mini-pinout.png" width=50% />
+<img src="assets/wemos-d1-mini-pinout.png" width=33% />
 
 2. Open the button.py script and run it. Are button presses detected? Do you notice a problem with the press detection?
 
@@ -55,7 +55,7 @@ In this lab students will learn about simple on/off (digital) inputs. A digital 
 
 <br />
 
-<img src="assets/wemos-d1-mini-pinout.png" width=50% />
+<img src="assets/wemos-d1-mini-pinout.png" width=33% />
 
 2. Open the LEDbutton.py script and run it. Does the LED turn on when the button is pressed, and off when the button released?
 
