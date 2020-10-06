@@ -30,6 +30,7 @@ In this lab students will learn about simple on/off (digital) inputs. A digital 
 
 3. You can read more on the problem here: https://learn.adafruit.com/make-it-switch/debouncing
 
+<br />
 
 ## Exercise 2
 
@@ -57,3 +58,16 @@ In this lab students will learn about simple on/off (digital) inputs. A digital 
 <img src="assets/wemos-d1-mini-pinout.png" width=50% />
 
 2. Open the LEDbutton.py script and run it. Does the LED turn on when the button is pressed, and off when the button released?
+
+So far, this isn't very interesting. We can do this circuit without the microcontroller. What would be more insteresting would be if we can toggle the led on/off.
+
+3. Modify the LEDbutton.py script so that the LED toggles on and off when the button is pressed. You can use the following code as the bases of your modification:
+
+    ```python
+    while True:
+        if not button.value():
+            led.value(not led.value())  # take the current value of the led output,
+                                        # invert it, and make that the new value of
+                                        # led.
+            time.sleep(.5)
+    ```
