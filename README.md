@@ -16,13 +16,20 @@ In this lab students will learn about simple on/off (digital) inputs. A digital 
 
 1. Wire up the components as shown in the diagrams.
 
-![circuit diagram](assets/esp8266-button-circuit-diagram_schem.svg)
+![circuit diagram](assets/esp8266-button-circuit-diagram_schem.png)
 
 <br />
 
-![breadboard diagram](assets/esp8266-button-circuit-diagram_bb.svg)
+![breadboard diagram](assets/esp8266-button-circuit-diagram_bb.png)
 
 <br />
+
+#### Pin Wiring
+
+| Pin No | Function | Device Connection |
+| --- | --- | --- |
+| G | GND | GND |
+| D5 | GPIO14 | Button |
 
 <img src="assets/wemos-d1-mini-pinout.png" width=33% />
 
@@ -47,13 +54,21 @@ In this lab students will learn about simple on/off (digital) inputs. A digital 
 
 1. Wire up the components as shown in the diagrams.
 
-![circuit diagram](assets/esp8266-led-button-circuit-diagram_schem.svg)
+![circuit diagram](assets/esp8266-led-button-circuit-diagram_schem.png)
 
 <br />
 
-![breadboard diagram](assets/esp8266-led-button-circuit-diagram_bb.svg)
+![breadboard diagram](assets/esp8266-led-button-circuit-diagram_bb.png)
 
 <br />
+
+#### Pin Wiring
+
+| Pin No | Function | Device Connection |
+| --- | --- | --- |
+| G | GND | GND |
+| D5 | GPIO14 | Button |
+| D1 | GPIO5 | LED | 
 
 <img src="assets/wemos-d1-mini-pinout.png" width=33% />
 

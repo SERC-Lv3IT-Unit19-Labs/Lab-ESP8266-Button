@@ -6,7 +6,7 @@ import machine
 import time
 
 LED_PIN = 5
-BUTTON_PIN = 16
+BUTTON_PIN = 14
 
 led = machine.Pin(LED_PIN, machine.Pin.OUT)
 button = machine.Pin(BUTTON_PIN, machine.Pin.IN, machine.Pin.PULL_UP)

@@ -4,7 +4,7 @@
 
 import machine  # the machine library lets us interact with the microcontroller, like setting inputs and outputs.
 
-BUTTON_PIN = 16 # define the pin the button is attached to
+BUTTON_PIN = 14 # define the pin the button is attached to
 
 # the Pin function takes a pin number and sets it to either input or output
 # 1. The board pin number, the same as creating a digital output pin.
